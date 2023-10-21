@@ -427,10 +427,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
 }
+
+.proj-imgbx h4{
+    text-align: center;
+    padding: 30px 20px 30px 20px;
+}
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, hsl(218, 45%, 46%) -5.91%, #0036c9 111.58%);
-  opacity: 0.85;
+  opacity: 0.99;
   position: absolute;
   width: 100%;
   height: 0;
@@ -442,10 +448,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx {
   position: absolute;
   text-align: center;
+  padding:10px;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
+  transition: 0.7s ease-in-out;
   opacity: 0;
   width: 100%;
 }
@@ -453,14 +460,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 50%;
   opacity: 1;
 }
-.proj-txtx h4 {
+.proj-imgbx h4 {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
 .proj-txtx span {
-  font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
